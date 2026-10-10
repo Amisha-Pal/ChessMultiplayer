@@ -1,0 +1,32 @@
+# Python virtual environments
+
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Django database
+
+*.sqlite3
+
+# Environment variables
+
+.env
+
+# Frontend dependencies
+
+frontend/node_modules/
+
+# Frontend build files
+
+frontend/dist/
+
+# Editor files
+
+.vscode/
+.idea/
