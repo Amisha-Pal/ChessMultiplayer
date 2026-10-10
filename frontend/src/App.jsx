@@ -48,7 +48,7 @@ function App() {
     }
 
     const socket = new WebSocket(
-      `ws://127.0.0.1:8000/ws/chess/${roomCode}/`
+      `wss://chessmultiplayer-yhwo.onrender.com/ws/chess/${roomCode}/`
     );
 
     socketRef.current = socket;
